@@ -27,7 +27,7 @@ class MyWidget(QMainWindow):
 
     def run2(self, qp):
         radius = randrange(1, 500)
-        qp.setPen(QColor(0, 0, 0))
+        qp.setPen(QColor(255, 255, 0))
         qp.drawEllipse(QRect(0, 50, radius, radius))
         self.do_paint = False
 
